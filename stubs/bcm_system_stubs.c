@@ -94,3 +94,7 @@ const bcmolt_enum_val bcmolt_interface_state_string_table[] = {BCMOLT_ENUM_LAST}
 const bcmolt_enum_val bcmolt_onu_auto_subgroup_string_table[] = {BCMOLT_ENUM_LAST};
 const bcmolt_enum_val bcmolt_onu_onu_activation_completed_data_id_string_table[] = {BCMOLT_ENUM_LAST};
 const bcmolt_enum_val bcmolt_activation_fail_reason_string_table[] = {BCMOLT_ENUM_LAST};
+
+void bcmtr_exit(void)
+{
+}
